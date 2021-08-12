@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap");
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.title {
+  padding: 10px;
+  text-align: center;
+  width: auto;
+  height: 100px;
+  font-family: "MonteCarlo", cursive;
+  font-size: 70px;
+  color: rgb(15, 12, 17);
+  box-shadow: 0 0 10px rgb(61, 29, 29);
+  background: #8a2387;
+
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121, #009fff);
+}
+.img {
+  margin-left: 30px;
+}
+span {
+  font-family: "MonteCarlo", cursive;
+}
+.hard {
+  box-shadow: 0 0 50px rgb(61, 29, 29);
+
+  margin: auto;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsYkQ8Xt-n1S8jAsIe4XKIruUkHc5aKeBagA&usqp=CAU");
+}
+
+.counter {
+  text-align: center;
+}
